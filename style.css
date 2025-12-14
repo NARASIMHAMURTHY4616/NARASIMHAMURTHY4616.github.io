@@ -26,3 +26,16 @@ h2 {
 a {
   color: #22c55e;
 }
+#typing {
+  color: #22c55e;
+  font-size: 26px;
+}
+
+section {
+  transition: 0.3s ease;
+}
+
+#time {
+  font-size: 14px;
+  opacity: 0.8;
+}
