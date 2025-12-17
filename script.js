@@ -1,40 +1,74 @@
-// ===== Typing Effect =====
-const text = "Naga Veera Venkata Satya Narasimha Murthy";
-let index = 0;
-const speed = 100;
+// ===== Name Toggle Typing Effect =====
+const texts = [
+  "BALLA NAGA V VENKATA SATYA NARASIMHAMURTHY",
+  "FUTURE DIGITAL FORENSIC EXPERT"
+];
 
-function typeEffect() {
-  if (index < text.length) {
-    document.getElementById("typing").innerHTML += text.charAt(index);
-    index++;
-    setTimeout(typeEffect, speed);
+let textIndex = 0;
+let charIndex = 0;
+let deleting = false;
+
+const nameEl = document.getElementById("name");
+const cursor = document.getElementById("cursor");
+
+function typeToggle() {
+  const current = texts[textIndex];
+
+  if (!deleting) {
+    nameEl.textContent = current.slice(0, charIndex++);
+  } else {
+    nameEl.textContent = current.slice(0, charIndex--);
   }
-}
-typeEffect();
 
-// ===== Live Time =====
+  if (charIndex === current.length + 1) {
+    deleting = true;
+    setTimeout(typeToggle, 1200);
+    return;
+  }
+
+  if (deleting && charIndex === 0) {
+    deleting = false;
+    textIndex = (textIndex + 1) % texts.length;
+  }
+
+  setTimeout(typeToggle, deleting ? 40 : 80);
+}
+
+typeToggle();
+
+// Cursor Blink
+setInterval(() => {
+  cursor.style.opacity = cursor.style.opacity === "0" ? "1" : "0";
+}, 500);
+
+// Live Time
 function updateTime() {
-  const now = new Date();
-  document.getElementById("time").innerText =
-    "🕒 " + now.toLocaleString();
+  document.getElementById("time").textContent =
+    "🕒 " + new Date().toLocaleString();
 }
 setInterval(updateTime, 1000);
 updateTime();
 
-// ===== Smooth Scroll =====
-document.querySelectorAll("a[href^='#']").forEach(link => {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href"))
-      .scrollIntoView({ behavior: "smooth" });
-  });
-});
+// Terminal Intro
+const terminalLines = [
+  "Initializing secure shell...",
+  "Access granted ✔",
+  "Loading portfolio...",
+  "Welcome, Operative"
+];
 
-// ===== Hover Glow Effect =====
-document.querySelectorAll("section").forEach(section => {
-  section.addEventListener("mouseover", () => {
-    section.style.boxShadow = "0 0 15px #38bdf8";
-  });
+const terminal = document.getElementById("terminal-text");
+let line = 0;
 
-  section.addEventListener("mouseout", () => {
-    section.sty
+function terminalIntro() {
+  if (line < terminalLines.length) {
+    terminal.innerHTML += terminalLines[line++] + "<br>";
+    setTimeout(terminalIntro, 400);
+  } else {
+    setTimeout(() => {
+      document.getElementById("terminal-intro").style.display = "none";
+    }, 800);
+  }
+}
+
+terminalIntro();
