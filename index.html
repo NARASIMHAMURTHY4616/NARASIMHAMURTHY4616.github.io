@@ -3,50 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <title>Nagu | Cyber Security Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-
 </head>
 <body>
 
-  <header>
-  <h1 id="typing"></h1>
-  <p>B.Tech Cyber Security | Ethical Hacker Aspirant</p>
-  <p id="time"></p>
-</header>
+  <!-- Terminal Hacker Intro -->
+  <div id="terminal-intro">
+    <div id="terminal-text"></div>
+  </div>
 
-  <section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1 id="typing"><span id="name"></span><span id="cursor">_</span></h1>
+    <p>B.Tech Cyber Security | Ethical Hacker Aspirant</p>
+    <p>&lt ON LEARNING PHASE &gt</p>
+    <p id="time"></p>
+  </header>
+
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      I am a Cyber Security Engineering student passionate about ethical hacking,
-      networking, and secure systems.
-    </p>
+    <p>Cyber Security Engineering student focused on ethical hacking and digital forensics.</p>
   </section>
 
-  <section>
+  <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Python</li>
-      <li>Linux</li>
-      <li>Networking</li>
-      <li>Ethical Hacking Basics</li>
-      <li>HTML, CSS, JavaScript</li>
+      <li>Python <span class="tag">Automation</span></li>
+      <li>Linux <span class="tag">Security</span></li>
+      <li>Networking <span class="tag">TCP/IP</span></li>
+      <li>Ethical Hacking <span class="tag">Basics</span></li>
+      <li>HTML, CSS, JavaScript <span class="tag">Web</span></li>
     </ul>
   </section>
 
-  <section>
+  <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li>Student Progress Tracking System (Python)</li>
-      <li>Linux User Enumeration Script</li>
-      <li>Cyber Security Mini Projects</li>
+      <li><strong>E-Commerce Website</strong><div class="tag">Web Security</div></li>
+      <li><strong>Ransomware Simulation</strong><div class="tag">Digital Forensics</div></li>
     </ul>
   </section>
 
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
-    <p>GitHub: <a href="https://github.com/NARASIMHAMURTHY4616">github profile</a></p>
+    <p>GitHub: <a href="https://github.com/NARASIMHAMURTHY4616" target="_blank">github.com/NARASIMHAMURTHY4616</a></p>
   </section>
 
+  <footer>© 2025 Nagu | Don't prove, just improve.</footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
