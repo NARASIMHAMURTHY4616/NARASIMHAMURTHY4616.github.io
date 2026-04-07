@@ -45,15 +45,16 @@ This portfolio showcases my journey in programming, projects, and continuous lea
 
 ## 🌟 Projects
 
-* 🕵️‍♂️ **Ransom ware** - A simulated ransome ware li ssh [[repo](https://github.com/NARASIMHAMURTHY4616/RANSOMEWARE_SIMULATION)]
-  
+* 🕵️‍♂️ **Ransom ware** - A simulated ransome ware li ssh [[ransomware-sim](https://github.com/NARASIMHAMURTHY4616/RANSOMEWARE_SIMULATION)]
+*  **cinemind-ai** - a gen ai project by usage of gemini apiu key [[cinemind-ai](https://github.com/NARASIMHAMURTHY4616/cinemind-ai)]
 
 ---
 
 ## 📫 Connect With Me
 
-* GitHub: [[https://github.com/NARASIMHAMURTHY4616](#)]
-* Email: [[ballanarasimhamurthy77@gmail.com](mailto:ballanarasimhamurthy77@gmail.com)]
+* GitHub: [[github](#)]
+* Email: [[mail me ](mailto:ballanarasimhamurthy77@gmail.com)]
+* dev com :[[dev community](https://dev.to/narasimhamurthy4616)]
 
 ---
 ## my  [[portfolio](https://narasimhamurthy4616.github.io/)]
