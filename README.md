@@ -52,7 +52,7 @@ This portfolio showcases my journey in programming, projects, and continuous lea
 
 ## 📫 Connect With Me
 
-* GitHub: [[github](#)]
+* GitHub: [[github](https://github.com/NARASIMHAMURTHY4616)]
 * Email: [[mail me ](mailto:ballanarasimhamurthy77@gmail.com)]
 * dev com :[[dev community](https://dev.to/narasimhamurthy4616)]
 
