@@ -55,6 +55,7 @@ This portfolio showcases my journey in programming, projects, and continuous lea
 * GitHub: [[github](https://github.com/NARASIMHAMURTHY4616)]
 * Email: [[mail me ](mailto:ballanarasimhamurthy77@gmail.com)]
 * dev com :[[dev community](https://dev.to/narasimhamurthy4616)]
+* linkedin : [[linked in](https://www.linkedin.com/in/ballanarasimhamurthy/)]
 
 ---
 ## my  [[portfolio](https://narasimhamurthy4616.github.io/)]
