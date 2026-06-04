@@ -45,7 +45,7 @@ This portfolio showcases my journey in programming, projects, and continuous lea
 
 ## 🌟 Projects
 
-* 🕵️‍♂️ **Ransom ware** - A simulated ransome ware li ssh [[ransomware-sim](https://github.com/NARASIMHAMURTHY4616/RANSOMEWARE_SIMULATION)]
+* 🕵️‍♂️ **Ransom ware** - A simulated ransome ware li ssh [ransomware-sim](https://github.com/NARASIMHAMURTHY4616/RANSOMEWARE_SIMULATION)
 *  **cinemind-ai** - a gen ai project by usage of gemini apiu key [[cinemind-ai](https://github.com/NARASIMHAMURTHY4616/cinemind-ai)]
 
 ---
